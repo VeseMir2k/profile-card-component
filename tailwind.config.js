@@ -17,6 +17,9 @@ module.exports = {
       fontFamily: {
         kumbhSans: ['Kumbh Sans', 'sans-serif'],
       },
+      boxShadow: {
+        cardShadow: '0px 50px 100px -20px rgba(8, 70, 94, 0.5)',
+      },
     },
   },
   plugins: [],
