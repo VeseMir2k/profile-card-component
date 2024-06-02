@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./*.{html,js}'],
   theme: {
+    screens: {
+      sm: '400px',
+    },
     extend: {
       backgroundImage: {
         patternTop: 'url("./images/bg-pattern-top.svg")',
