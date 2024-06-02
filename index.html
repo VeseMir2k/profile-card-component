@@ -4,14 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Profile card component</title>
   </head>
   <body
-    class="after:content before:content relative min-h-dvh bg-[#19a1ae] before:absolute before:bottom-[-300px] before:right-[-400px] before:block before:size-[620px] before:bg-patternBottom before:bg-cover after:absolute after:left-[-400px] after:top-[-400px] after:block after:size-[620px] after:bg-patternTop after:bg-cover"
+    class="after:content before:content font-kumbhSans relative flex min-h-dvh items-center bg-[#19a1ae] text-[18px] font-normal before:absolute before:bottom-[-300px] before:right-[-400px] before:z-[-1] before:block before:size-[620px] before:bg-patternBottom before:bg-cover after:absolute after:left-[-400px] after:top-[-400px] after:block after:size-[620px] after:bg-patternTop after:bg-cover"
   >
-    <div class="">
-      <div></div>
+    <div
+      class="before:content relative mx-[24px] flex w-full flex-col items-center bg-white before:absolute before:left-0 before:top-0 before:block before:h-[140px] before:w-full before:bg-patternCard"
+    >
+      <img
+        class="relative z-10 mb-[20px] mt-[90px] size-[96px] rounded-full border-[5px] border-white"
+        src="./images/image-victor.jpg"
+        alt="avatar"
+      />
+      <div class="text-textSecondary text-center">
+        <p class="mb-[8px]">
+          <span class="text-textPrimary font-bold">Victor Cest</span><span class="ml-[8px]">26</span>
+        </p>
+        <p class="text-[14px]">London</p>
+      </div>
+      <hr class="bg-divider my-[24px] h-[1px] w-full border-none" />
     </div>
   </body>
 </html>

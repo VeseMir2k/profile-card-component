@@ -8,6 +8,15 @@ module.exports = {
         patternBottom: 'url("./images/bg-pattern-bottom.svg")',
         patternCard: 'url("./images/bg-pattern-card.svg")',
       },
+      colors: {
+        bgPrimary: '#19A1AE',
+        textPrimary: '#2E3349',
+        textSecondary: '#6B7082',
+        divider: '#E8E9EC',
+      },
+      fontFamily: {
+        kumbhSans: ['Kumbh Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
