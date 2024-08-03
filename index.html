@@ -7,39 +7,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/style.css" />
     <title>Profile card component</title>
   </head>
   <body
-    class="after:content before:content font-kumbhSans bg-bgPrimary relative flex min-h-dvh items-center overflow-hidden text-[18px] font-normal before:absolute before:bottom-[-300px] before:right-[-400px] before:z-[-1] before:block before:size-[620px] before:bg-patternBottom before:bg-cover after:absolute after:left-[-400px] after:top-[-400px] after:z-[-1] after:block after:size-[620px] after:bg-patternTop after:bg-cover sm:justify-center lg:before:bottom-[-550px] lg:before:right-[-300px] lg:before:size-[978px] lg:after:left-[-300px] lg:after:top-[-500px] lg:after:size-[978px]"
+    class="after:content before:content relative flex min-h-dvh items-center overflow-hidden bg-bgPrimary font-kumbhSans text-[18px] font-normal before:absolute before:bottom-[-300px] before:right-[-400px] before:z-[-1] before:block before:size-[620px] before:bg-patternBottom before:bg-cover after:absolute after:left-[-400px] after:top-[-400px] after:z-[-1] after:block after:size-[620px] after:bg-patternTop after:bg-cover sm:justify-center lg:before:bottom-[-550px] lg:before:right-[-300px] lg:before:size-[978px] lg:after:left-[-300px] lg:after:top-[-500px] lg:after:size-[978px]"
   >
     <div
-      class="before:content shadow-cardShadow relative mx-[24px] flex w-full flex-col items-center overflow-hidden rounded-[15px] bg-white before:absolute before:left-0 before:top-0 before:block before:h-[140px] before:w-full before:bg-patternCard sm:w-[350px]"
+      class="before:content relative mx-[24px] flex w-full flex-col items-center overflow-hidden rounded-[15px] bg-white shadow-cardShadow before:absolute before:left-0 before:top-0 before:block before:h-[140px] before:w-full before:bg-patternCard sm:w-[350px]"
     >
       <img
         class="relative z-10 mb-[20px] mt-[90px] size-[96px] rounded-full border-[5px] border-white"
         src="./images/image-victor.jpg"
         alt="avatar"
       />
-      <div class="text-textSecondary text-center">
+      <div class="text-center text-textSecondary">
         <p class="mb-[8px]">
-          <span class="text-textPrimary font-bold">Victor Cest</span><span class="ml-[8px]">26</span>
+          <span class="font-bold text-textPrimary">Victor Cest</span><span class="ml-[8px]">26</span>
         </p>
         <p class="text-[14px]">London</p>
       </div>
-      <hr class="bg-divider my-[24px] h-[1px] w-full border-none" />
+      <hr class="my-[24px] h-[1px] w-full border-none bg-divider" />
       <div class="mb-[24px] flex gap-[40px] text-center text-[10px]">
         <div>
           <p class="mb-[9px] text-[18px]">80K</p>
-          <p class="text-textSecondary tracking-[1.5px]">Followers</p>
+          <p class="tracking-[1.5px] text-textSecondary">Followers</p>
         </div>
         <div>
           <p class="mb-[9px] text-[18px]">803K</p>
-          <p class="text-textSecondary tracking-[1.5px]">Likes</p>
+          <p class="tracking-[1.5px] text-textSecondary">Likes</p>
         </div>
         <div>
           <p class="mb-[9px] text-[18px]">1.4K</p>
-          <p class="text-textSecondary tracking-[1.5px]">Photos</p>
+          <p class="tracking-[1.5px] text-textSecondary">Photos</p>
         </div>
       </div>
     </div>
